@@ -1,0 +1,705 @@
+{
+  "ranking": [
+    {
+      "position": 1,
+      "city": "Hong Kong",
+      "country": "China (SAR)",
+      "arrivals": 29.26,
+      "continent": "Asia"
+    },
+    {
+      "position": 2,
+      "city": "Bangkok",
+      "country": "Thailand",
+      "arrivals": 24.17,
+      "continent": "Asia"
+    },
+    {
+      "position": 3,
+      "city": "London",
+      "country": "United Kingdom",
+      "arrivals": 19.23,
+      "continent": "Europe"
+    },
+    {
+      "position": 4,
+      "city": "Macau",
+      "country": "China (SAR)",
+      "arrivals": 18.93,
+      "continent": "Asia"
+    },
+    {
+      "position": 5,
+      "city": "Singapore",
+      "country": "Singapore",
+      "arrivals": 18.55,
+      "continent": "Asia"
+    },
+    {
+      "position": 6,
+      "city": "Paris",
+      "country": "France",
+      "arrivals": 17.56,
+      "continent": "Europe"
+    },
+    {
+      "position": 7,
+      "city": "Dubai",
+      "country": "UAE",
+      "arrivals": 15.92,
+      "continent": "Asia"
+    },
+    {
+      "position": 8,
+      "city": "New York City",
+      "country": "US",
+      "arrivals": 13.6,
+      "continent": "North America"
+    },
+    {
+      "position": 9,
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "arrivals": 13.43,
+      "continent": "Asia"
+    },
+    {
+      "position": 10,
+      "city": "Istanbul",
+      "country": "Turkey",
+      "arrivals": 13.43,
+      "continent": "Asia"
+    },
+    {
+      "position": 11,
+      "city": "Delhi",
+      "country": "India",
+      "arrivals": 12.65,
+      "continent": "Asia"
+    },
+    {
+      "position": 12,
+      "city": "Antalya",
+      "country": "Turkey",
+      "arrivals": 12.44,
+      "continent": "Asia"
+    },
+    {
+      "position": 13,
+      "city": "Shenzhen",
+      "country": "China",
+      "arrivals": 12.2,
+      "continent": "Asia"
+    },
+    {
+      "position": 14,
+      "city": "Mumbai",
+      "country": "India",
+      "arrivals": 10.59,
+      "continent": "Asia"
+    },
+    {
+      "position": 15,
+      "city": "Phuket",
+      "country": "Thailand",
+      "arrivals": 10.55,
+      "continent": "Asia"
+    },
+    {
+      "position": 16,
+      "city": "Rome",
+      "country": "Italy",
+      "arrivals": 10.07,
+      "continent": "Europe"
+    },
+    {
+      "position": 17,
+      "city": "Tokyo",
+      "country": "Japan",
+      "arrivals": 9.99,
+      "continent": "Asia"
+    },
+    {
+      "position": 18,
+      "city": "Pattaya",
+      "country": "Thailand",
+      "arrivals": 9.61,
+      "continent": "Asia"
+    },
+    {
+      "position": 19,
+      "city": "Taipei",
+      "country": "Taiwan, China",
+      "arrivals": 9.6,
+      "continent": "Asia"
+    },
+    {
+      "position": 20,
+      "city": "Mecca",
+      "country": "Saudi Arabia",
+      "arrivals": 9.57,
+      "continent": "Asia"
+    },
+    {
+      "position": 21,
+      "city": "Guangzhou",
+      "country": "China",
+      "arrivals": 9,
+      "continent": "Asia"
+    },
+    {
+      "position": 22,
+      "city": "Prague",
+      "country": "Czechia",
+      "arrivals": 8.95,
+      "continent": "Asia"
+    },
+    {
+      "position": 23,
+      "city": "Medina",
+      "country": "Saudi Arabia",
+      "arrivals": 8.55,
+      "continent": "Asia"
+    },
+    {
+      "position": 24,
+      "city": "Seoul",
+      "country": "South Korea",
+      "arrivals": 8.43,
+      "continent": "Asia"
+    },
+    {
+      "position": 25,
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "arrivals": 8.35,
+      "continent": "Europe"
+    },
+    {
+      "position": 26,
+      "city": "Agra",
+      "country": "India",
+      "arrivals": 8.14,
+      "continent": "Asia"
+    },
+    {
+      "position": 27,
+      "city": "Miami",
+      "country": "US",
+      "arrivals": 8.12,
+      "continent": "North America"
+    },
+    {
+      "position": 28,
+      "city": "Osaka",
+      "country": "Japan",
+      "arrivals": 7.86,
+      "continent": "Asia"
+    },
+    {
+      "position": 29,
+      "city": "Los Angeles",
+      "country": "US",
+      "arrivals": 7.5,
+      "continent": "North America"
+    },
+    {
+      "position": 30,
+      "city": "Shanghai",
+      "country": "China",
+      "arrivals": 7.48,
+      "continent": "Asia"
+    },
+    {
+      "position": 31,
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
+      "arrivals": 7.2,
+      "continent": "Asia"
+    },
+    {
+      "position": 32,
+      "city": "Denpasar",
+      "country": "Indonesia",
+      "arrivals": 7.19,
+      "continent": "Asia"
+    },
+    {
+      "position": 33,
+      "city": "Barcelona",
+      "country": "Spain",
+      "arrivals": 6.71,
+      "continent": "Europe"
+    },
+    {
+      "position": 34,
+      "city": "Las Vegas",
+      "country": "US",
+      "arrivals": 6.59,
+      "continent": "North America"
+    },
+    {
+      "position": 35,
+      "city": "Milan",
+      "country": "Italy",
+      "arrivals": 6.48,
+      "continent": "Europe"
+    },
+    {
+      "position": 36,
+      "city": "Chennai",
+      "country": "India",
+      "arrivals": 6.42,
+      "continent": "Asia"
+    },
+    {
+      "position": 37,
+      "city": "Vienna",
+      "country": "Austria",
+      "arrivals": 6.41,
+      "continent": "Europe"
+    },
+    {
+      "position": 38,
+      "city": "Johor Bahru",
+      "country": "Malaysia",
+      "arrivals": 6.4,
+      "continent": "Asia"
+    },
+    {
+      "position": 39,
+      "city": "Jaipur",
+      "country": "India",
+      "arrivals": 6.38,
+      "continent": "Asia"
+    },
+    {
+      "position": 40,
+      "city": "Cancun",
+      "country": "Mexico",
+      "arrivals": 6.04,
+      "continent": "Central America"
+    },
+    {
+      "position": 41,
+      "city": "Berlin",
+      "country": "Germany",
+      "arrivals": 5.96,
+      "continent": "Europe"
+    },
+    {
+      "position": 42,
+      "city": "Cairo",
+      "country": "Egypt",
+      "arrivals": 5.75,
+      "continent": "Africa"
+    },
+    {
+      "position": 43,
+      "city": "Athens",
+      "country": "Greece",
+      "arrivals": 5.73,
+      "continent": "Europe"
+    },
+    {
+      "position": 44,
+      "city": "Orlando",
+      "country": "US",
+      "arrivals": 5.55,
+      "continent": "North America"
+    },
+    {
+      "position": 45,
+      "city": "Moscow",
+      "country": "Russia",
+      "arrivals": 5.51,
+      "continent": "Asia"
+    },
+    {
+      "position": 46,
+      "city": "Venice",
+      "country": "Italy",
+      "arrivals": 5.5,
+      "continent": "Europe"
+    },
+    {
+      "position": 47,
+      "city": "Madrid",
+      "country": "Spain",
+      "arrivals": 5.44,
+      "continent": "Europe"
+    },
+    {
+      "position": 48,
+      "city": "Ha Long",
+      "country": "Vietnam",
+      "arrivals": 5.29,
+      "continent": "Asia"
+    },
+    {
+      "position": 49,
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "arrivals": 5.27,
+      "continent": "Asia"
+    },
+    {
+      "position": 50,
+      "city": "Dublin",
+      "country": "Ireland",
+      "arrivals": 5.21,
+      "continent": "Europe"
+    },
+    {
+      "position": 51,
+      "city": "Florence",
+      "country": "Italy",
+      "arrivals": 5.06,
+      "continent": "Europe"
+    },
+    {
+      "position": 52,
+      "city": "Ha Noi",
+      "country": "Vietnam",
+      "arrivals": 4.69,
+      "continent": "Asia"
+    },
+    {
+      "position": 53,
+      "city": "Toronto",
+      "country": "Canada",
+      "arrivals": 4.51,
+      "continent": "North America"
+    },
+    {
+      "position": 54,
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "arrivals": 4.12,
+      "continent": "Africa"
+    },
+    {
+      "position": 55,
+      "city": "Sydney",
+      "country": "Australia",
+      "arrivals": 4.09,
+      "continent": "Oceania"
+    },
+    {
+      "position": 56,
+      "city": "Munich",
+      "country": "Germany",
+      "arrivals": 4.06,
+      "continent": "Europe"
+    },
+    {
+      "position": 57,
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "arrivals": 4.03,
+      "continent": "Asia"
+    },
+    {
+      "position": 58,
+      "city": "Beijing",
+      "country": "China",
+      "arrivals": 4,
+      "continent": "Asia"
+    },
+    {
+      "position": 59,
+      "city": "St. Petersburg",
+      "country": "Russia",
+      "arrivals": 4,
+      "continent": "Asia"
+    },
+    {
+      "position": 60,
+      "city": "Brussels",
+      "country": "Belgium",
+      "arrivals": 3.94,
+      "continent": "Europe"
+    },
+    {
+      "position": 61,
+      "city": "Jerusalem",
+      "country": "Israel",
+      "arrivals": 3.93,
+      "continent": "Asia"
+    },
+    {
+      "position": 62,
+      "city": "Budapest",
+      "country": "Hungary",
+      "arrivals": 3.82,
+      "continent": "Europe"
+    },
+    {
+      "position": 63,
+      "city": "Lisbon",
+      "country": "Portugal",
+      "arrivals": 3.54,
+      "continent": "Europe"
+    },
+    {
+      "position": 64,
+      "city": "Dammam",
+      "country": "Saudi Arabia",
+      "arrivals": 3.5,
+      "continent": "Asia"
+    },
+    {
+      "position": 65,
+      "city": "Penang Island",
+      "country": "Malaysia",
+      "arrivals": 3.44,
+      "continent": "Asia"
+    },
+    {
+      "position": 66,
+      "city": "Heraklion",
+      "country": "Greece",
+      "arrivals": 3.4,
+      "continent": "Europe"
+    },
+    {
+      "position": 67,
+      "city": "Kyoto",
+      "country": "Japan",
+      "arrivals": 3.29,
+      "continent": "Asia"
+    },
+    {
+      "position": 68,
+      "city": "Zhuhai",
+      "country": "China",
+      "arrivals": 3.26,
+      "continent": "Asia"
+    },
+    {
+      "position": 69,
+      "city": "Vancouver",
+      "country": "Canada",
+      "arrivals": 3.21,
+      "continent": "North America"
+    },
+    {
+      "position": 70,
+      "city": "Chiang Mai",
+      "country": "Thailand",
+      "arrivals": 3.2,
+      "continent": "Asia"
+    },
+    {
+      "position": 71,
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "arrivals": 3.07,
+      "continent": "Europe"
+    },
+    {
+      "position": 72,
+      "city": "San Francisco",
+      "country": "US",
+      "arrivals": 2.9,
+      "continent": "North America"
+    },
+    {
+      "position": 73,
+      "city": "Melbourne",
+      "country": "Australia",
+      "arrivals": 2.89,
+      "continent": "Oceania"
+    },
+    {
+      "position": 74,
+      "city": "Krakow",
+      "country": "Poland",
+      "arrivals": 2.85,
+      "continent": "Europe"
+    },
+    {
+      "position": 75,
+      "city": "Marrakech",
+      "country": "Morocco",
+      "arrivals": 2.84,
+      "continent": "Africa"
+    },
+    {
+      "position": 76,
+      "city": "Kolkatta",
+      "country": "India",
+      "arrivals": 2.83,
+      "continent": "Asia"
+    },
+    {
+      "position": 77,
+      "city": "Cebu",
+      "country": "Philippines",
+      "arrivals": 2.81,
+      "continent": "Asia"
+    },
+    {
+      "position": 78,
+      "city": "Auckland",
+      "country": "New Zealand",
+      "arrivals": 2.8,
+      "continent": "Oceania"
+    },
+    {
+      "position": 79,
+      "city": "Tel Aviv",
+      "country": "Israel",
+      "arrivals": 2.78,
+      "continent": "Asia"
+    },
+    {
+      "position": 80,
+      "city": "Guilin",
+      "country": "China",
+      "arrivals": 2.75,
+      "continent": "Asia"
+    },
+    {
+      "position": 81,
+      "city": "Honolulu",
+      "country": "US",
+      "arrivals": 2.74,
+      "continent": "North America"
+    },
+    {
+      "position": 82,
+      "city": "Hurgada",
+      "country": "Egypt",
+      "arrivals": 2.74,
+      "continent": "Africa"
+    },
+    {
+      "position": 83,
+      "city": "Warsaw",
+      "country": "Poland",
+      "arrivals": 2.73,
+      "continent": "Europe"
+    },
+    {
+      "position": 84,
+      "city": "Mugla",
+      "country": "Turkey",
+      "arrivals": 2.72,
+      "continent": "Asia"
+    },
+    {
+      "position": 85,
+      "city": "Buenos Aires City",
+      "country": "Argentina",
+      "arrivals": 2.69,
+      "continent": "South America"
+    },
+    {
+      "position": 86,
+      "city": "Chiba",
+      "country": "Japan",
+      "arrivals": 2.68,
+      "continent": "Asia"
+    },
+    {
+      "position": 87,
+      "city": "Frankfurt",
+      "country": "Germany",
+      "arrivals": 2.64,
+      "continent": "Europe"
+    },
+    {
+      "position": 88,
+      "city": "Stockholm",
+      "country": "Sweden",
+      "arrivals": 2.6,
+      "continent": "Europe"
+    },
+    {
+      "position": 89,
+      "city": "Lima",
+      "country": "Peru",
+      "arrivals": 2.54,
+      "continent": "South America"
+    },
+    {
+      "position": 90,
+      "city": "Da Nang",
+      "country": "Vietnam",
+      "arrivals": 2.51,
+      "continent": "Asia"
+    },
+    {
+      "position": 91,
+      "city": "Batam",
+      "country": "Indonesia",
+      "arrivals": 2.49,
+      "continent": "Asia"
+    },
+    {
+      "position": 92,
+      "city": "Nice",
+      "country": "France",
+      "arrivals": 2.47,
+      "continent": "Europe"
+    },
+    {
+      "position": 93,
+      "city": "Fukuoka",
+      "country": "Japan",
+      "arrivals": 2.44,
+      "continent": "Asia"
+    },
+    {
+      "position": 94,
+      "city": "Abu Dhabi",
+      "country": "UAE",
+      "arrivals": 2.4,
+      "continent": "Asia"
+    },
+    {
+      "position": 95,
+      "city": "Jeju",
+      "country": "South Korea",
+      "arrivals": 2.35,
+      "continent": "Asia"
+    },
+    {
+      "position": 96,
+      "city": "Porto",
+      "country": "Portugal",
+      "arrivals": 2.34,
+      "continent": "Europe"
+    },
+    {
+      "position": 97,
+      "city": "Rhodes",
+      "country": "Greece",
+      "arrivals": 2.34,
+      "continent": "Europe"
+    },
+    {
+      "position": 98,
+      "city": "Rio de Janeiro",
+      "country": "Brazil",
+      "arrivals": 2.28,
+      "continent": "South America"
+    },
+    {
+      "position": 99,
+      "city": "Krabi",
+      "country": "Thailand",
+      "arrivals": 2.26,
+      "continent": "Asia"
+    },
+    {
+      "position": 100,
+      "city": "Bangalore",
+      "country": "India",
+      "arrivals": 2.24,
+      "continent": "Asia"
+    }
+  ]
+}
+

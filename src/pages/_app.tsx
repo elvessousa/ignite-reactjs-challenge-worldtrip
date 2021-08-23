@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import { ChakraProvider } from '@chakra-ui/react';
-import { wtTheme } from '../../styles/theme';
+import { wtTheme } from '../styles/theme';
 
-function MyApp({ Component, pageProps }) {
+function WorldTripApp({ Component, pageProps }) {
   return (
     <>
       <Head>
@@ -15,4 +15,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default WorldTripApp;
