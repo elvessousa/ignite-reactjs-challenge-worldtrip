@@ -8,15 +8,24 @@ import { api } from '../services/api';
 type City = {
   position: number;
   city: string;
+  image: string;
   country: string;
   arrivals: number;
   continent: string;
   slug?: string;
 };
 
+type Continent = {
+  name: string;
+  slug: string;
+  excerpt: string;
+  languages: number;
+  text: string;
+};
+
 type ContinentProps = {
   cities: City[];
-  continent: string;
+  continent: Continent;
   slug: string;
   amount: number;
   countries: number;
@@ -31,22 +40,17 @@ export default function Continent({
 }: ContinentProps) {
   const info = [
     { number: countries, caption: 'países' },
-    { number: 60, caption: 'línguas' },
+    { number: continent.languages, caption: 'línguas' },
     { number: amount, caption: 'cidades +100' },
   ];
 
   return (
     <div>
       <Header />
-      <Hero title={continent} bg={`/photos/${slug}.jpg`} />
+      <Hero title={continent.name} bg={`/photos/${slug}.jpg`} />
 
       <SimpleGrid columns={2} my="16" maxW="80vw" mx="auto">
-        <Box as="p">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
-          deleniti voluptate libero aut amet! Corrupti, architecto labore harum
-          similique animi odit debitis quis natus necessitatibus quae possimus,
-          eos, minima soluta?
-        </Box>
+        <Box as="p">{continent.text}</Box>
 
         <Box d="flex" justifyContent="center">
           {info.map((item) => (
@@ -79,15 +83,21 @@ export default function Continent({
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const { continent } = params;
-  const response = await api.get('ranking');
-  const data = response.data.map((city: City) => {
+
+  const continentResponse = await api.get('continents');
+  const continentData = continentResponse.data.filter(
+    (item: Continent) => item.slug === continent
+  )[0];
+
+  const rankingResponse = await api.get('ranking');
+  const rankingData = rankingResponse.data.map((city: City) => {
     return {
       ...city,
       slug: city.continent.replace(' ', '-').toLowerCase(),
     };
   });
 
-  const cities = data.filter(({ slug }: City) =>
+  const cities = rankingData.filter(({ slug }: City) =>
     slug.includes(String(continent))
   );
 
@@ -96,8 +106,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   return {
     props: {
       cities,
-      continent: cities[0].continent,
-      slug: cities[0].continent.replace(' ', '-').toLowerCase(),
+      continent: continentData,
+      slug: continent,
       countries: countries.size,
       amount: cities.length,
     },
