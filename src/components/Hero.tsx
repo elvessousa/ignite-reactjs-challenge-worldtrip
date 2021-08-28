@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { Flex, Heading, Image } from '@chakra-ui/react';
+import { Flex, Heading, Image, useMediaQuery } from '@chakra-ui/react';
 
 type HeroProps = {
   title: string;
@@ -20,6 +20,7 @@ export function Hero({
   image,
   children,
 }: HeroProps) {
+  const [isMobile] = useMediaQuery(['(max-width: 720px)']);
   const titleAlign = image ? 'center' : 'flex-end';
   const background = bg
     ? {
@@ -31,14 +32,16 @@ export function Hero({
     : { bgGradient: 'linear(to-b, #023, #036)' };
 
   return (
-    <Flex p="16" height={height ?? '500px'} color="white" {...background}>
+    <Flex p={[12, 16]} height={height ?? '500px'} color="white" {...background}>
       <Flex flexDir="column" justifyContent={titleAlign}>
         <Heading size="xl" mb="4">
           {title}
         </Heading>
         {children}
       </Flex>
-      {image && <Image src={image} alt={alt} top="38" pos="relative" />}
+      {image && !isMobile && (
+        <Image src={image} alt={alt} top="38" pos="relative" />
+      )}
     </Flex>
   );
 }

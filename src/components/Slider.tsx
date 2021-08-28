@@ -35,7 +35,7 @@ export function Slider({ slides }: SliderProps) {
               <a>
                 <Heading
                   as="h3"
-                  fontSize="50"
+                  fontSize={[30, 50]}
                   color="white"
                   textShadow="0 0 60px #000"
                 >
@@ -44,7 +44,7 @@ export function Slider({ slides }: SliderProps) {
                 <Heading
                   as="h4"
                   color="white"
-                  fontSize="24"
+                  fontSize={[14, 24]}
                   opacity="0.8"
                   textShadow="0 0 60px #000"
                 >

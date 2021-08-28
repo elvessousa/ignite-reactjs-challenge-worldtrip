@@ -34,11 +34,17 @@ export default function Home({ continents }: HomeProps) {
         <p>Chegou a hora de tirar do papel a viagem que você sempre sonhou.</p>
       </Hero>
 
-      <Box maxW="80vw" mx="auto" mb="20">
+      <Box maxW={['100vw', '80vw']} mx="auto" mb="20">
         <Categories />
 
         <hr />
-        <Heading as="h2" textAlign="center" m="6" color="dark.text">
+        <Heading
+          as="h2"
+          fontSize={[18, 34]}
+          textAlign="center"
+          m="6"
+          color="dark.text"
+        >
           Vamos nessa? <br /> Então escolha seu continente
         </Heading>
 

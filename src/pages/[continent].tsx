@@ -51,7 +51,7 @@ export default function Continent({
       <Header />
       <Hero title={continent.name} bg={`/photos/${slug}.jpg`} />
 
-      <SimpleGrid columns={2} my="16" maxW="80vw" mx="auto">
+      <SimpleGrid columns={[1, 2]} my="16" maxW="80vw" mx="auto">
         <Box as="p">{continent.text}</Box>
 
         <Box d="flex" justifyContent="center">
@@ -72,11 +72,16 @@ export default function Continent({
       </SimpleGrid>
 
       <Box maxW="80vw" mx="auto">
-        <Heading as="h3" my="6" color="dark.text">
+        <Heading
+          as="h3"
+          my="6"
+          textAlign={['center', 'left']}
+          color="dark.text"
+        >
           Cidades +100
         </Heading>
 
-        <SimpleGrid columns={4} my="16" maxW="80vw" mx="auto" gap="4">
+        <SimpleGrid columns={[1, 4]} my="16" maxW="80vw" mx="auto" gap="4">
           {cities.map((item) => (
             <Card key={item.position} item={item} />
           ))}
