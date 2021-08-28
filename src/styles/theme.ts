@@ -2,8 +2,8 @@ import { extendTheme } from '@chakra-ui/react';
 
 const theme = {
   fonts: {
-    heading: 'Work Sans',
-    body: 'Work Sans',
+    heading: 'Poppins',
+    body: 'Poppins',
   },
   colors: {
     background: '#f5f8fa',
@@ -28,6 +28,15 @@ const theme = {
     global: {
       body: {
         bg: 'background',
+      },
+      '.swiper-button-prev::after, .swiper-button-next::after': {
+        color: 'highlight',
+      },
+      '.swiper-pagination-bullet': {
+        bg: 'background',
+      },
+      '.swiper-pagination-bullet-active': {
+        bg: 'highlight',
       },
     },
   },

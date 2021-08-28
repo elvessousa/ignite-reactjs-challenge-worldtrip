@@ -1,10 +1,12 @@
-import { Box, Heading, Image } from '@chakra-ui/react';
+import { Box, Heading, HStack, Image } from '@chakra-ui/react';
+import { CircleFlag } from 'react-circle-flags';
 
 type Item = {
   position: number;
   city: string;
   image: string;
   country: string;
+  code: string;
   arrivals: number;
   continent: string;
   slug?: string;
@@ -31,12 +33,15 @@ export function Card({ item }: CardProps) {
         h="150px"
         objectFit="fill"
       />
-      <Heading as="strong" px="4" pt="4" fontSize="16" m={0}>
-        {item.city}
-      </Heading>
-      <Box as="p" px="4">
-        {item.country}
-      </Box>
+      <HStack px="4">
+        <Box mr="auto">
+          <Heading as="strong" fontSize="16" m={0}>
+            {item.city}
+          </Heading>
+          <Box as="p">{item.country}</Box>
+        </Box>
+        <CircleFlag countryCode={item.code} width="30px" />
+      </HStack>
     </Box>
   );
 }

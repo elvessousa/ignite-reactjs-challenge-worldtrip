@@ -1,5 +1,6 @@
-import { Box, Heading, SimpleGrid } from '@chakra-ui/react';
+import { Box, Heading, Icon, SimpleGrid } from '@chakra-ui/react';
 import { GetStaticPaths, GetStaticProps } from 'next';
+import { FiInfo } from 'react-icons/fi';
 import { Card } from '../components/Card';
 import { Header } from '../components/Header';
 import { Hero } from '../components/Hero';
@@ -10,6 +11,7 @@ type City = {
   city: string;
   image: string;
   country: string;
+  code: string;
   arrivals: number;
   continent: string;
   slug?: string;
@@ -60,6 +62,9 @@ export default function Continent({
               </Heading>
               <Heading color="dark.text" fontSize="20">
                 {item.caption}
+                {item.caption === 'cidades +100' && (
+                  <Icon as={FiInfo} ml="1" boxSize={4} color="dark.info.500" />
+                )}
               </Heading>
             </Box>
           ))}

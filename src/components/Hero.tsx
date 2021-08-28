@@ -1,30 +1,44 @@
 import { ReactNode } from 'react';
-import { Box, Heading, Image } from '@chakra-ui/react';
+import { Flex, Heading, Image } from '@chakra-ui/react';
 
 type HeroProps = {
   title: string;
+  alt?: string;
   bg?: string;
+  bgPos?: string;
+  height?: string;
   image?: string;
   children?: ReactNode;
 };
 
-export function Hero({ title, bg, image, children }: HeroProps) {
+export function Hero({
+  title,
+  alt,
+  bg,
+  bgPos,
+  height,
+  image,
+  children,
+}: HeroProps) {
   const titleAlign = image ? 'center' : 'flex-end';
   const background = bg
     ? {
         backgroundImage: `url('${bg}')`,
-        bgPosition: 'center',
+        bgPos: bgPos ?? 'center',
         backgroundPosition: 'no-repeat',
+        bgSize: 'cover',
       }
     : { bgGradient: 'linear(to-b, #023, #036)' };
 
   return (
-    <Box p="16" height="500px" d="flex" color="white" {...background}>
-      <Box d="flex" flexDir="column" justifyContent={titleAlign}>
-        <Heading size="xl">{title}</Heading>
+    <Flex p="16" height={height ?? '500px'} color="white" {...background}>
+      <Flex flexDir="column" justifyContent={titleAlign}>
+        <Heading size="xl" mb="4">
+          {title}
+        </Heading>
         {children}
-      </Box>
-      {image && <Image src={image} alt="Plane" />}
-    </Box>
+      </Flex>
+      {image && <Image src={image} alt={alt} top="38" pos="relative" />}
+    </Flex>
   );
 }
