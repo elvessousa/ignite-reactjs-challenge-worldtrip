@@ -7,5 +7,4 @@
 
 ## Sobre o desafio
 
-O desafio consistiu em implementar um layout , usando o [Chakra UI](https://chakra-ui.com) e o Next.js.
-10
+O desafio consistiu em implementar um layout usando o [Chakra UI](https://chakra-ui.com) e o Next.js.
